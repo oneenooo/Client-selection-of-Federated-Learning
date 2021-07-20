@@ -26,9 +26,9 @@ initialize the parameters of the global model and initialize the selection weigh
 
 Results
 --
-　　Experiments are conducted based on the public dataset CIFAR-10 with multiple client selection algorithms for comparison. The experimental results show that the method in this paper can effectively improve the convergence speed of the global model while ensuring the effect of the global model. 
+　　Experiments are conducted based on the public dataset CIFAR-10 with multiple client selection algorithms for comparison. The experimental results show that the method in this paper can effectively improve the convergence speed of the global model while ensuring the effect of the global model. The following figure shows the results of CBE3 and several client selection algorithms. Experimental parameters: Class A, B, and C clients have 600, 100, and 10 data volumes, respectively. Setting the data distribution degree coefficients for class A, B, and C clients to 0.3, 0.5 and 0.8, respectively.  
   
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
+![](https://github.com/xuyinhai22/Client-selection-of-Federated-Learning/blob/master/a.png)
 NOTE:
 --
 　　This work is developed by the Lab of Professor Weiwei Lin (linww@scut.edu.cn), School of Computer Science and Engineering, South China University of Technology.The content of this project belongs to the subject project of the laboratory.
