@@ -27,6 +27,7 @@ initialize the parameters of the global model and initialize the selection weigh
 Results
 --
 　　Experiments are conducted based on the public dataset CIFAR-10 with multiple client selection algorithms for comparison. The experimental results show that the method in this paper can effectively improve the convergence speed of the global model while ensuring the effect of the global model. 
+  
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 NOTE:
 --
