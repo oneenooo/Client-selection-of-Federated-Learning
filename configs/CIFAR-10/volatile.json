@@ -1,0 +1,36 @@
+{
+    "clients": {
+        "total": 100,
+        "per_round": 20,
+        "label_distribution": "uniform"
+    },
+    "data": {
+        "loading": "static",
+        "partition": {
+            "size": 600
+        },
+        "IID": false,
+        "bias": {
+            "primary": 0.6,
+            "secondary": false
+        }
+    },
+    "federated_learning": {
+        "rounds": 1000,
+        "target_accuracy": 0.99,
+        "task": "train",
+        "epochs": 3,
+        "batch_size": 50,
+        "skip": false,
+        "device": "cuda:0"
+    },
+    "model": "CIFAR-10",
+    "paths": {
+        "data": "./data",
+        "model": "./models"
+    },
+    "server": "volatile",
+    "bandit": {
+        "sigma_ratio": 0.2
+    }
+}
