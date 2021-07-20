@@ -22,12 +22,12 @@ The algorithm flow
 　　Initialization:
 initialize the parameters of the global model and initialize the selection weights of all clients to 1, i.e., ensure that all clients in the first round of training have the same selection probability.
 
-　　Iteration process:first calculate the selection probability of clients according to the selection weights; then randomly select clients according to the selection probability using the DepRound algorithm, and perform the local model training of clients and the aggregation of the global model, and record the contribution of clients; finally make unbiased estimation of the contribution of clients in the next round according to the contribution of clients in the current round and update the selection weights; keep iterating the above process until the end of training.
+　　Iteration process:calculate the selection probability of clients according to the selection weights;randomly select clients according to the selection probability using the DepRound algorithm;perform the local model training of clients and the aggregation of the global model;record the contribution of clients;make unbiased estimation of the contribution of clients in the next round according to the contribution of clients in the current round and update the selection weights; keep iterating the above process until the end of training.
 
 Results
 --
 　　Experiments are conducted based on the public dataset CIFAR-10 with multiple client selection algorithms for comparison. The experimental results show that the method in this paper can effectively improve the convergence speed of the global model while ensuring the effect of the global model. 
-
+![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 NOTE:
 --
 　　This work is developed by the Lab of Professor Weiwei Lin (linww@scut.edu.cn), School of Computer Science and Engineering, South China University of Technology.The content of this project belongs to the subject project of the laboratory.
